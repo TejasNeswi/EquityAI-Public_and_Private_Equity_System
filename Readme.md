@@ -69,7 +69,7 @@ streamlit run app.py
 
 - scikit-learn (for predictive models)
 
-- matplotlib / seaborn (for visualizations)
+- joblib
 
 ---
 
