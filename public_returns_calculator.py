@@ -151,10 +151,10 @@ if __name__ == "__main__":
     )
     
     print("\n=== Investment Simulation (No Risk) ===")
-    print(f"Initial Investment : {example['initial_investment']:,} M USD ")
+    print(f"Initial Investment : {example['initial_investment']:,} Million USD ")
     print(f"Years              : {example['years']}")
     print(f"Pred. Annual Return: {example['predicted_annual_return_%']:.2f}%")
-    print(f"Final Value        : {example['final_value']:.2f} M USD")
+    print(f"Final Value        : {example['final_value']:.2f} Million USD")
 
     # Risk-based Monte Carlo simulation
     result = simulate_investment_with_risk(
@@ -168,10 +168,10 @@ if __name__ == "__main__":
     )
 
     print("\n=== Investment Simulation with Risk ===")
-    print(f"Initial Investment : {result['initial_investment']:,} M USD")
+    print(f"Initial Investment : {result['initial_investment']:,} Million USD")
     print(f"Years              : {result['years']}")
     print(f"Mean Return        : {result['predicted_mean_return_%']:.2f}%")
     print(f"Volatility Assumed : {result['volatility_%']}%")
-    print(f"Expected Final Value : ₹{result['expected_final_value']:.2f} M USD")
-    print(f"95th Percentile (Best Case) : {result['best_case']:.2f} M USD")
-    print(f"5th Percentile (Worst Case) : {result['worst_case']:.2f} M USD")
+    print(f"Expected Final Value : ₹{result['expected_final_value']:.2f} Million USD")
+    print(f"95th Percentile (Best Case) : {result['best_case']:.2f} Million USD")
+    print(f"5th Percentile (Worst Case) : {result['worst_case']:.2f} Million USD")
