@@ -8,6 +8,7 @@ from sklearn.metrics import mean_absolute_error, mean_squared_error, r2_score
 # ================================
 # Helper Function
 # ================================
+
 def evaluate_model(model, X, y, label=""):
     preds = model.predict(X)
     mae = mean_absolute_error(y, preds)
@@ -22,6 +23,7 @@ def evaluate_model(model, X, y, label=""):
 # ================================
 # Public Equity Evaluation
 # ================================
+
 print("\n📈 Evaluating Public Equity Model...")
 
 # Load dataset (replace with your actual file name)
@@ -49,6 +51,7 @@ evaluate_model(pub_model, X_pub_test, y_pub_test, label="Public Equity (Market R
 # ================================
 # Private Equity Evaluation
 # ================================
+
 print("\n💼 Evaluating Private Equity Model...")
 
 # Load dataset
