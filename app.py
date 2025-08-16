@@ -66,7 +66,7 @@ def simulate_public_equity(invest, years, gdp, inflation_rate, avg_rate, volatil
 # ================================
 # Streamlit UI
 # ================================
-st.title("📈 Investment Return Simulator")
+st.title("📈 EquityAI – Public & Private Equity Prediction System")
 st.write("Compare **Private Equity** vs **Public Equity** returns using ML + Monte Carlo simulation.")
 
 # User Inputs
