@@ -73,6 +73,14 @@ streamlit run app.py
 
 ---
 
+## Hosting
+
+The application is hosted on **Streamlit Community Cloud**.
+
+You can access the application on https://equityai.streamlit.app
+
+---
+
 ## License
 
 This project is open source and available under the MIT License.
